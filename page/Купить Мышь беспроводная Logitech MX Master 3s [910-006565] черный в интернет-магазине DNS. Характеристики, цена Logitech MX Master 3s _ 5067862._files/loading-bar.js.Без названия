@@ -1,0 +1,1 @@
+window.addEventListener("beforeunload",(function(){var e="loading-bar",t=document.getElementById(e);t?t.style.width="5%":((t=document.createElement("div")).id=e,document.body.appendChild(t),t.style.width="5%",setTimeout((function(){t.style.width="30%"}),100),setInterval((function(){var e=parseInt(t.style.width,10);e<90&&(e+=5,t.style.width=e+"%")}),1e3))}));

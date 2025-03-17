@@ -1,0 +1,1 @@
+(()=>{"use strict";var t;(t=window.cardMicrodataUrl)&&fetch(t).then((function(t){return t.json()})).then((function(t){if(t.result){var e=document.createElement("script");e.setAttribute("type","application/ld+json"),e.textContent=JSON.stringify(t.data),document.head.appendChild(e)}}))})();

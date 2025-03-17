@@ -1,0 +1,1 @@
+#loading-bar{display:none}@media (display-mode:standalone){#loading-bar{background:#ff7300;display:block;height:2px;left:0;position:fixed;top:0;transition:width 1s ease-out;width:10%;z-index:1031}}

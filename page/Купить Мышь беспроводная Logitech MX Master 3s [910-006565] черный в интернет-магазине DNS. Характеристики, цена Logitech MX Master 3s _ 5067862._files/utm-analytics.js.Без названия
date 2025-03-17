@@ -1,0 +1,1 @@
+(()=>{var a,e,t;a=new URLSearchParams(window.location.search),e=/^utm_/,t={event:"UTM"},a.forEach((function(a,n){e.test(n)&&(t[n]=a)})),1<Object.keys(t).length&&(window.dataLayer=window.dataLayer||[],window.dataLayer.push(t))})();

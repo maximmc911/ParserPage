@@ -1,0 +1,19 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Maxim_Sokolov",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"
+  },
+  "dependencies": {
+    "ioredis": "^5.6.0",
+    "jsdom": "^26.0.0",
+    "nodemon": "^3.1.9",
+    "puppeteer": "^24.4.0"
+  }
+}
